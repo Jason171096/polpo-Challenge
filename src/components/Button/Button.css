@@ -1,4 +1,4 @@
-.wrapper {
+.wrapper-button {
     width: 275px;
     height: 75px;
     background-color: #ffc64b;
@@ -7,13 +7,13 @@
     margin: 15px;
 }
 
-.wrapper:hover {
+.wrapper-button:hover {
     transform: scale(1.1);
     transition: 100ms;
     cursor: pointer;
 }
 
-.wrapper-card {
+.wrapper-button-page {
     height: 100%;
     display: flex;
     margin: auto;

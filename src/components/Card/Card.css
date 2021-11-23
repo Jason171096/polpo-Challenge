@@ -1,0 +1,27 @@
+.wrapper-card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+}
+
+.wrapper-card-exit {
+    display: flex;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.wrapper-card-page {
+    margin: 0px 10px;
+    height: 100%;
+    display: flex;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.button-exit {
+    font-size: 25px;
+    color: white;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
