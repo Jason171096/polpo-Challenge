@@ -2,15 +2,15 @@
 const dataFetch = {
     fetchRandom: {
         title: "Random Quick Joke",
-        url: "http://api.icndb.com/jokes/random"
+        url: "https://api.icndb.com/jokes/random"
     },
     fetchNerdy: {
         title: "Nerdy Joke",
-        url: "http://api.icndb.com/jokes/random?limitTo=[nerdy]"
+        url: "https://api.icndb.com/jokes/random?limitTo=[nerdy]"
     },
     fetchExplicit: {
         title: "Explicit Joke",
-        url: "http://api.icndb.com/jokes/random?limitTo=[explicit]"
+        url: "https://api.icndb.com/jokes/random?limitTo=[explicit]"
     },
 }
 
