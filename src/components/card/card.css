@@ -1,0 +1,29 @@
+.wrapper {
+    width: 275px;
+    height: 75px;
+    background-color: #ffc64b;
+    border: brown 2px solid;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.wrapper:hover {
+    transform: scale(1.1);
+    transition: 100ms;
+    cursor: pointer;
+}
+
+.wrapper-card {
+    height: 100%;
+    display: flex;
+    margin: auto;
+    color: brown;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 640px) {
+    .wrapper {
+        width: 350px;
+    }
+}

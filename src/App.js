@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Card } from './components/card/Card';
+import chuckImg from './sources/chuckNorris.jpg';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img width="200px" src={chuckImg} alt="Chuck Norris" />
+      <h1 className="title">Chuck Norris Jokes</h1>
+      <Card title={"Random Quick Joke"}/>
+      <Card title={"Category"}/>
     </div>
   );
 }
