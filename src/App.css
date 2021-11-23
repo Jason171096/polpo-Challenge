@@ -10,7 +10,7 @@
   color: black;
 }
 
-.App > h1 {
+.App > h1, h2 {
   margin: 5px;
 }
 
