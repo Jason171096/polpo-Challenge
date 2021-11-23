@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 500px;
+    height: auto;
+    color: brown;
 }
 
 .wrapper-card-exit {
@@ -14,14 +15,33 @@
 .wrapper-card-page {
     margin: 0px 10px;
     height: 100%;
-    display: flex;
     background-color: beige;
     border-radius: 10px;
 }
 
 .button-exit {
-    font-size: 25px;
-    color: white;
+    font-size: 30px;
+    color: brown;
     transform: rotate(180deg);
     cursor: pointer;
+    text-shadow: -1px 1px 0 beige,
+                          1px 1px 0 beige,
+                         1px -1px 0 beige,
+                        -1px -1px 0 beige;
+}
+
+.wrapper-joke {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.wrapper-joke h1{
+    margin: 15px 15px 0px
+}
+
+.wrapper-joke h2 {
+    margin: 15px;
 }

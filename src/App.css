@@ -14,7 +14,7 @@
   margin: 5px;
 }
 
-.title {
+.title, h1, h2 {
   color: brown;
   text-shadow: -1px 1px 0 beige,
                           1px 1px 0 beige,
